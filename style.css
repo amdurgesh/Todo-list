@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body{
+  background-image: url(assets/bg-image.jpg);
+}
+
+.container{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field{
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 20px;
+}
+.input-field h1{
+  font-size: 40px;
+  margin-top: 70px;
+
+}
+.input-field h1 img{
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+}
+
+.input-field input{
+  margin-block: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  font-size: 15px;
+}
+
+.input-field input[type="text"]{
+  width: 90%;
+}
+
+.input-field input[type="button"]{
+  margin-left: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(64, 6, 238);
+  background-color: #007BFF;
+  margin-block: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  font-size: 15px;
+}
+
+.input-field input[type="button"]:hover{
+  background-color: #0056b3;
+}
+
+ul{
+  width: 30%;
+  max-width: 400px;
+  /*display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;*/
+}
+
+ul li{
+  list-style: none;
+  margin-block-end: 10px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.5s;
+}
+
+ul li:hover{
+  background-color: #c6daef;
+}
+
+ul li p{
+  flex-grow: 1;
+  padding: 2px;
+}
+
+.btn{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.deleteBtn{
+  color: red;
+}
+
+.editBtn{
+  color: rgb(0, 75, 128);
+}

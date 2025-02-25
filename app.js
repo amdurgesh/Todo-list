@@ -47,6 +47,7 @@ const addTask = () => {
   }
 }
 
+// ---update tasks function---  
 const updateTask = (e) => {
 
   if (e.target.innerHTML === "Delete") {
@@ -62,6 +63,8 @@ const updateTask = (e) => {
   }
 }
 
+
+//---saving task in local storage---
 const saveLocalTasks = (task) => {
   let tasks;
   if (localStorage.getItem("tasks") === null) {
@@ -74,6 +77,8 @@ const saveLocalTasks = (task) => {
   localStorage.setItem("tasks", JSON.stringify(tasks));
   //console.log(tasks);
 }
+
+//---fetching tasks from local storage---
 const getLocalTasks = (task) => {
   let tasks;
   if (localStorage.getItem("tasks") === null) {
@@ -104,6 +109,8 @@ const getLocalTasks = (task) => {
     })
   }
 }
+
+//---deleting tasks from local storage ---
 const deleteLocalTasks = (task) => {
   let tasks;
   if (localStorage.getItem("tasks") === null) {
@@ -117,6 +124,8 @@ const deleteLocalTasks = (task) => {
   tasks.splice(taskIndex, 1);
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }
+
+//---editing task and save in local storage---
 const editLocalTasks = (task) => {
   let tasks = JSON.parse(localStorage.getItem("tasks"));
   let taskIndex = tasks.indexOf(task);

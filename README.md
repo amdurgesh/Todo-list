@@ -1,6 +1,6 @@
 # To-Do List
 
-A clean and minimal To-Do List web application built to help users manage daily tasks with ease. Users can add, edit, complete, and delete tasks seamlessly in a responsive web interface.
+A clean and minimal <b>To-Do List </b> web application built to help users manage daily tasks with ease. Users can add, edit, complete, and delete tasks seamlessly in a responsive web interface.
 
 ## Features
 

@@ -4,22 +4,22 @@ A clean and minimal <b>To-Do List </b> web application built to help users manag
 
 ## 🚀 Features
 
-Add new tasks with a single click
+- Add new tasks with a single click
 
-Mark tasks as completed or pending
+- Mark tasks as completed or pending
 
-Edit and delete existing tasks
+- Edit and delete existing tasks
 
-Filter tasks: All, Completed, and Pending
+- Filter tasks: All, Completed, and Pending
 
-Responsive design for all screen sizes
+- Responsive design for all screen sizes
 
-Data saved in browser using localStorage
+- Data saved in browser using localStorage
 
 ## 🌐 Live Demo
 
 👉 Click here to see the live
-Link:- https://amdurgesh.github.io/Todo-list/
+- Link:- https://amdurgesh.github.io/Todo-list/
 
 ## 📂 Tech Stack
 

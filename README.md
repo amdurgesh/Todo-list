@@ -20,7 +20,7 @@ A clean and minimal <b>To-Do List </b> web application built to help users manag
 👉 Click here to see the live
 - Link:- *[Add Your Task](https://amdurgesh.github.io/Todo-list/)*
 
---
+---
 
 ## 📂 Tech Stack
 
